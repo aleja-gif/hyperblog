@@ -1,21 +1,33 @@
 body {
-  text-align: center;
-  font-family: "Courier New", Courier, monospace;
+  font-family: arial;
   color: rgb(8, 29, 34);
 }
 
 .container {
   height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+}
+
+.cabecera {
+  background-color: darkolivegreen;
+  color: white;
+  height: 5em;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.cabecera p {
+  font-size: 2em;
+  font-weight: 800;
 }
 .post {
   width: 70vw;
   text-align: left;
 }
 .post h1 {
-  font-size: 2em;
+  font-size: 1.5em;
   font-weight: 700;
 }
 
